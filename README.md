@@ -6,7 +6,7 @@ Docker integration for Revel
 Usage
 -----
 
-Add the `docker.endpoint` configuration option to `app.conf`. This uses the standard docker socket.
+Add the `docker.endpoint` configuration option to `app.conf`. For example, the docker socket on the local machine:
 
 ```
 docker.endpoint = unix:///var/run/docker.sock
