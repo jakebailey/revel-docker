@@ -24,6 +24,7 @@ func Init() {
 
 // DockerController allows embedding a docker client into a revel controller.
 type DockerController struct {
+    *revel.Controller
 	DockerClient *docker.Client
 }
 
